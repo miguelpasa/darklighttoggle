@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tw-ring-color: #e5e5e5;
+}
+
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+#react-root {
+  height: 100vh;
+  width: 100%;
+}
